@@ -23,18 +23,3 @@ for video in videos:
     if int(time) <= 5 and length == "d":
         print(f"Link: {link} Title: {title}")
         
-"""
-dates = driver.find_elements_by_xpath('.//span[@class="style-scope ytd-grid-video-renderer"]')
-i=1
-for date in dates:
-    if i%2 == 0 and i<=12:
-        numb = list(date.get_attribute("innerHTML"))[0]
-        length = list(date.get_attribute("innerHTML"))[2]
-
-        if numb <= "5" and length == "d":
-            print(f"{numb} and {length}")
-        
-    else:
-        pass
-    i+=1
-"""
